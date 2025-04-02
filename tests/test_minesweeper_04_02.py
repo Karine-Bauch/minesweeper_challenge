@@ -7,10 +7,13 @@
 
 
 def minesweeper(mines_map: str) -> str:
-    if mines_map == '.':
-        return '0'
-    else:
-        return '*'
+    result = ''
+    for i in mines_map:
+        if i == '.':
+            result += '0'
+        if i == '*':
+            result += '*'
+    return result
 
 def test_minesweeper_01() -> None:
     assert minesweeper('.') == '0'
