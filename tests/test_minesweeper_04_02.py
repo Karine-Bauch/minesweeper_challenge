@@ -1,10 +1,11 @@
 # . should return 0
 
+
 def minesweeper(mines_map) -> str:
-    return '*'
+    return '0'
 
 def test_minesweeper() -> None:
     data = '.'
-    expected = '*'
+    expected = '0'
 
     assert minesweeper(data) == expected
