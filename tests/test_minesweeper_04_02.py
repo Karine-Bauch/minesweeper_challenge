@@ -1,7 +1,7 @@
 # . should return 0
 
 def minesweeper(mines_map) -> str:
-    pass
+    return '*'
 
 def test_minesweeper() -> None:
     data = '.'
