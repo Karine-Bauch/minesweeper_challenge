@@ -17,3 +17,6 @@ def test_minesweeper_01() -> None:
 
 def test_minesweeper_02() -> None:
     assert minesweeper('*') == '*'
+
+def test_minesweeper_03() -> None:
+    assert minesweeper('..') == '00'
