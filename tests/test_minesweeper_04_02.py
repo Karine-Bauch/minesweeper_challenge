@@ -23,3 +23,6 @@ def test_minesweeper_02() -> None:
 
 def test_minesweeper_03() -> None:
     assert minesweeper('..') == '00'
+
+def test_minesweeper_04() -> None:
+    assert minesweeper('**') == '**'
